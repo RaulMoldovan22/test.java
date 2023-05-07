@@ -4,20 +4,20 @@ Feature: Rgol - Cos cumparaturi
   Scenario: Succes "Produs"
     Given Open Rgol page
     Then Accept Cookie
-    Then Click Man
-    Then Put Email
-    Then Put Pass
-    Then Click
-    Then Choose language
-    Then Choose Fan
-    Then Choose Cluburi
-    Then Choose Inter Milano
-    Then Pick Inter Shirt
-    Then Choose Size S
-    Then Put on basket
-    Then Close window
-    Then View basket
-    Then Go to basket
+    Then Click button Autentificare
+    Then Puenm Email valid: "raul_moldovan22@yahoo.com"
+    Then Punem Parola valida
+    Then Click Accesare cont
+    Then Alegem limba romana
+    Then Intram in tabul - Pentru fani
+    Then Alegem - Cluburi de fotbal
+    Then Alegem echipa - Inter Milano
+    Then Alegem tricoul de joc a celor de la Inter
+    Then Selectam marimea S
+    Then O adaugam in cos
+    Then Inchidem tabul afisat
+    Then Vizualizam cosul de cumparaturi
+    Then Mergem la cosul de cumparaturi, pentu a face comanda
 
 
 

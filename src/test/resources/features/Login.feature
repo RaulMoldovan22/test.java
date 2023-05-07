@@ -4,9 +4,9 @@ Feature: Rgol - LogIn
   Scenario: Succes Login
     Given Open Rgol page
     Then Accept Cookie
-    Then Click Man
-    Then Put Email
-    Then Put Pass
-    Then Click
-    Then Choose language
-    Then Click Man
+    Then Click button Autentificare
+    Then Puenm Email valid: "raul_moldovan22@yahoo.com"
+    Then Punem Parola valida
+    Then Click Accesare cont
+    Then Alegem limba romana
+    Then Click button Autentificare
